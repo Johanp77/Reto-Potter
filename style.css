@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    height: 100%; /*respecto a html*/
+    background-size: initial;
+    background-image: url("./fondo\ gryffindor.jpg");
+    background-position:center center; /*respecto a body*/
+    background-repeat: no-repeat;
+
+}
+html{
+    height: 100%; /*respecto a la ventana*/
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+
+}
+
+.btn{
+    cursor: pointer;
+    background-color: rgb(255, 174, 0);
+    border: none;
+    padding: 1em 3em;
+    border-radius: 1em;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+}
+
+
+
+/* Estilos de nuevo contenedor */
+
+
+.container_super{
+    position: relative;
+    background-color: #f1d793;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+    z-index: 100;
+}
+
+
+
+.mini_super{
+    display: flex;
+    justify-content: center;
+}
+
+
+.foto_cont{
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo{
+    max-width: 150px;
+    z-index: 100;
+}
+
+.foto{
+    max-width: 10rem;
+    border-radius: 10px;
+
+}
+
+.texto{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn_centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.nuevo{
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(255, 174, 0);
+    border: none;
+    padding: 1em 3em;
+    border-radius: 1em;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
